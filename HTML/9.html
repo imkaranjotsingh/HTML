@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+<head>
+<title>Table</title>
+<!--  CSS  -->
+<style>
+table, th, td{
+	border: 1px solid back;
+	border-collapse:collapse;
+}
+td{
+	padding:5px;
+}
+</style>
+
+</head>
+<body>
+<h2>Cell that spans two collumns:</h2>
+<table border="1">
+	<caption><b>Employee Details</b> </caption>
+
+	<tr>
+		<th>Name</th>
+		<th colspan="3">Telephone</th>
+	</tr>
+	<tr>
+		<td>Narendra Modi</td>
+		<td>555777854</td>
+		<td>133242343</td>
+		<td>847363772</td>
+	</tr>
+</table>
+<br/><br/>
+
+<h2>Cell that spans two rows:</h2>
+<table border="1">
+	<tr>
+		<th>Name:</th>
+		<td>Narendra Modi</td>
+	</tr>
+	<tr>
+		<th rowspan="2">Telephone:</th>
+		<td>43723438928</td>
+	</tr>
+</table>
+
+</body>
+</html>
